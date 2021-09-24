@@ -3,7 +3,8 @@
 </div>
 
 <div align="center">
-  <h5> Yeshasvi Tirupachuri, Prashanth Ramadoss, Lorenzo Rapetti, Claudia Latella, Kourosh Darvish, Silvio Traversaro, Daniele Pucci </h5>
+  <h5> Yeshasvi Tirupachuri, Prashanth Ramadoss, Lorenzo Rapetti, </h5>
+  <h5> Claudia Latella, Kourosh Darvish, Silvio Traversaro, Daniele Pucci </h5>
 </div>
 
 <div align="center">
