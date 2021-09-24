@@ -24,6 +24,6 @@ The main code related to the estimation of payload and articular stress are impl
 
 Follow the installation instructions from the [master branch](https://github.com/robotology/human-dynamics-estimation#how-to-install) and to run the payload estimation and articular stress estimation, please refer to [How to run Dynamics Estimation](https://github.com/robotology/human-dynamics-estimation/blob/master/doc/how-to-run-dynamics-estimation.md)
 
-#### Dataset
+### Dataset
 
 The dataset of a human manipulating a 5 Kg payload as highlighted in the video above is available at [Dataset](./dataset).
