@@ -11,9 +11,9 @@
   <h6> DOI: <a href="https://ieeexplore.ieee.org/abstract/document/9526592" target="_top">10.1109/ACCESS.2021.3109238</a> </h6>
 </div>
 
-<a href="https://youtu.be/6b03DNpNXAk" title="Video"></a>
-
-
+<div align="center">
+  <a href="https://youtu.be/6b03DNpNXAk" title="Link Title"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1632487811/video_to_markdown/images/youtube--6b03DNpNXAk-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Alternate Text" /></a>
+</div>
 ### Citation
 
 If you find this work interesting and useful, please use the following Citation as reference:
