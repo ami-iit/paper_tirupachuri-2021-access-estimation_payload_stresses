@@ -11,9 +11,11 @@
   <h6> DOI: <a href="https://ieeexplore.ieee.org/abstract/document/9526592" target="_top">10.1109/ACCESS.2021.3109238</a> </h6>
 </div>
 
-<div align="center">
-  https://user-images.githubusercontent.com/6505998/134693025-23386545-c39f-4b8f-b543-6d6234db7f37.mp4
-</div>
+<p align="center">
+
+https://user-images.githubusercontent.com/6505998/134693025-23386545-c39f-4b8f-b543-6d6234db7f37.mp4
+
+</p>
 
 ### Citation
 
