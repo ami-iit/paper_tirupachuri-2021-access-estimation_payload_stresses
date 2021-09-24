@@ -8,7 +8,7 @@
 
 <div align="center">
   <h6> IEEE Access Journal 2021 ( Volume: 9) </h6>
-  <h6> DOI: <a href="10.1109/ACCESS.2021.3109238" target="_top">10.1109/ACCESS.2021.3109238</a> </h6>
+  <h6> DOI: <a href="https://ieeexplore.ieee.org/abstract/document/9526592" target="_top">10.1109/ACCESS.2021.3109238</a> </h6>
 </div>
 
 ### Citation
