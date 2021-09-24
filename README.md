@@ -1,13 +1,13 @@
 <div align="center">
-  <h1> Online Non-Collocated Estimation of Payload and Articular Stress for Real-Time Human Ergonomy Assessment </h1>
+  <h2> Online Non-Collocated Estimation of Payload and Articular Stress for Real-Time Human Ergonomy Assessment </h2>
 </div>
 
 <div align="center">
-  <h3> Yeshasvi Tirupachuri, Prashanth Ramadoss, Lorenzo Rapetti, Claudia Latella, Kourosh Darvish, Silvio Traversaro, Daniele Pucci </h3>
+  <h5> Yeshasvi Tirupachuri, Prashanth Ramadoss, Lorenzo Rapetti, Claudia Latella, Kourosh Darvish, Silvio Traversaro, Daniele Pucci </h5>
 </div>
 
 <div align="center">
-  <h5> IEEE Access Journal 2021 ( Volume: 9) </h5>
+  <h6> IEEE Access Journal 2021 ( Volume: 9) </h6>
   <h6> DOI: <a href="10.1109/ACCESS.2021.3109238" target="_top">10.1109/ACCESS.2021.3109238</a> </h6>
 </div>
 
