@@ -1,9 +1,9 @@
-<h1>
-Online Non-Collocated Estimation of Payload and Articular Stress for Real-Time Human Ergonomy Assessment
-</h1>
+<div align="center">
+  <h1> Online Non-Collocated Estimation of Payload and Articular Stress for Real-Time Human Ergonomy Assessment </h1>
+</div>
 
 <div align="center">
-  <h2> Yeshasvi Tirupachuri, Prashanth Ramadoss, Lorenzo Rapetti, Claudia Latella, Kourosh Darvish, Silvio Traversaro, Daniele Pucci </h2>
+  <h3> Yeshasvi Tirupachuri, Prashanth Ramadoss, Lorenzo Rapetti, Claudia Latella, Kourosh Darvish, Silvio Traversaro, Daniele Pucci </h3>
 </div>
 
 <div align="center">
