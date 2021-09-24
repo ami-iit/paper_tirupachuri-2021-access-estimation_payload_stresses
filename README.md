@@ -17,6 +17,12 @@ https://user-images.githubusercontent.com/6505998/134696331-6335943b-cd03-41fc-8
 
 </p>
 
+
+<div align="center">
+  <a href="https://ieeexplore.ieee.org/abstract/document/9526592"><b>Paper</b></a> |
+  <a href="https://www.youtube.com/watch?v=6b03DNpNXAk"><b>Video</b></a>
+</div>
+
 ### Citation
 
 If you find this work interesting and useful, please use the following Citation as reference:
