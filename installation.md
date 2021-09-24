@@ -16,3 +16,8 @@ Please follow the installation instructions for each of the dependencies.
 - [YARP](https://github.com/robotology/yarp) - Robotics Middleware
 - iDynTree - Branch: [feature/stack-of-tasks-berdy](https://github.com/ami-iit/idyntree-hde-fork/tree/feature/stack-of-tasks-berdy) - Library for whole-body human dynamics estimator
 - ROS Rviz [Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) or [Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu) - 3D Visualization
+
+
+### Human Dynamics Estimation
+
+The main code related to the estimation of payload and articular stress are implemented as a part of [Human Dynamics Estimation](https://github.com/robotology/human-dynamics-estimation) project in the branch [feature/SOT-Berdy-HDE](https://github.com/robotology/human-dynamics-estimation/tree/feature/SOT-Berdy-HDE).

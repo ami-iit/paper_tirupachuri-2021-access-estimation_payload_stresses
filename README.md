@@ -29,7 +29,7 @@ Please refer to the [Installation](./installation.md) document on how to setup a
 
 ### Citation
 
-If you find this work interesting and useful, please use the following Citation as reference:
+If you find this work interesting and useful, please use the following The bibtex code as a reference:
 
 ```
 @ARTICLE{9526592,
