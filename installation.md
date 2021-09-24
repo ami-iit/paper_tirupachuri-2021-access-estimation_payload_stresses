@@ -21,3 +21,9 @@ Please follow the installation instructions for each of the dependencies.
 ### Human Dynamics Estimation
 
 The main code related to the estimation of payload and articular stress are implemented as a part of [Human Dynamics Estimation](https://github.com/robotology/human-dynamics-estimation) project in the branch [feature/SOT-Berdy-HDE](https://github.com/robotology/human-dynamics-estimation/tree/feature/SOT-Berdy-HDE).
+
+Follow the installation instructions from the [master branch](https://github.com/robotology/human-dynamics-estimation#how-to-install) and to run the payload estimation and articular stress estimation, please refer to [How to run Dynamics Estimation](https://github.com/robotology/human-dynamics-estimation/blob/master/doc/how-to-run-dynamics-estimation.md)
+
+#### Dataset
+
+The dataset of a human manipulating a 5 Kg payload as highlighted in the video above is available at [Dataset](./dataset).
