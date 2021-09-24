@@ -3,9 +3,7 @@ Online Non-Collocated Estimation of Payload and Articular Stress for Real-Time H
 </h1>
 
 <div align="center">
-<h4>
-Yeshasvi Tirupachuri, Prashanth Ramadoss, Lorenzo Rapetti, Claudia Latella, Kourosh Darvish, Silvio Traversaro, Daniele Pucci
-</h4>
+  <h2> Yeshasvi Tirupachuri, Prashanth Ramadoss, Lorenzo Rapetti, Claudia Latella, Kourosh Darvish, Silvio Traversaro, Daniele Pucci </h2>
 </div>
 
 <div align="center">
