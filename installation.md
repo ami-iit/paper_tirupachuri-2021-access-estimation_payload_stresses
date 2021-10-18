@@ -15,6 +15,7 @@ Please follow the installation instructions for each of the dependencies.
 
 - [YARP](https://github.com/robotology/yarp) - Robotics Middleware
 - iDynTree - Branch: [feature/stack-of-tasks-berdy](https://github.com/ami-iit/idyntree-hde-fork/tree/feature/stack-of-tasks-berdy) - Library for whole-body human dynamics estimator
+- [Savitzky Golay](https://github.com/arntanguy/gram_savitzky_golay#installation) Filtering
 - ROS Rviz [Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) or [Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu) - 3D Visualization
 
 
