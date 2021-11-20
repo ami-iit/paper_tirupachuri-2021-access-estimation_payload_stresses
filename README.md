@@ -23,9 +23,9 @@ https://user-images.githubusercontent.com/6505998/134696331-6335943b-cd03-41fc-8
   <a href="https://www.youtube.com/watch?v=6b03DNpNXAk"><b>Video</b></a>
 </div>
 
-### Installation
+### Installation & Usage
 
-Please refer to the [Installation](./installation.md) document on how to setup and use the code related to this work.
+Please refer to the [Installation](./installation.md) document on how to setup and use the code related to this work. The details on how to use the code base is available in the [Usage](.usage.md) document.
 
 ### Citation
 
