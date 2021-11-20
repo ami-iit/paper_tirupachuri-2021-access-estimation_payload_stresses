@@ -27,9 +27,17 @@ Follow the installation instructions from the [master branch](https://github.com
 
 ### Dataset
 
-The dataset of a human manipulating a 5 Kg payload as highlighted in the video above is available at [Dataset](./dataset). This dataset is acquired with Xsens system for whole-body motion tracking, and AMTI force/torque ground fixed platform for ground reaction wrench at the feet. The logged data is in `wearable data` format that is achieved through [wearable library](https://github.com/robotology/wearables). Please refer to the [paper](https://ieeexplore.ieee.org/abstract/document/9526592) for more details on how the data is handled.
+The dataset of a human manipulating a 5 Kg payload as highlighted in the video **above** is available at [Dataset](./dataset). This dataset is acquired with Xsens system for whole-body motion tracking, and AMTI force/torque ground fixed platform for ground reaction wrench at the feet. The logged data is in `wearable data` format that is achieved through [wearable library](https://github.com/robotology/wearables). Please refer to the [paper](https://ieeexplore.ieee.org/abstract/document/9526592) for more details on how the data is handled.
+
+#### Playback
 
 The dataset can be played back using [yarpdataplayer](https://www.yarp.it/latest/yarpdataplayer.html) tool
+
+:warning: The [dataset](./dataset) contains two different time stamps, each from the machine from where the data originated, and the machine from where the data logging is done. So, for the dataset playback `yarpdataplayer` needs to be run with the argument `--withExtraTimeCol 2`
+
+```
+yarpdataplayer --withExtraTimeCol 2
+```
 
 ### Configuration File
 
