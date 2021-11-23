@@ -13,17 +13,29 @@ https://user-images.githubusercontent.com/6505998/134699009-4887d23b-070b-4ba5-a
 
 Please follow the installation instructions for each of the dependencies.
 
-- [YARP](https://github.com/robotology/yarp) - Robotics Middleware
-- iDynTree - Branch: [feature/stack-of-tasks-berdy](https://github.com/ami-iit/idyntree-hde-fork/tree/feature/stack-of-tasks-berdy) - Library for whole-body human dynamics estimator
 - [Savitzky Golay](https://github.com/arntanguy/gram_savitzky_golay#installation) Filtering
 - ROS Rviz [Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) or [Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu) - 3D Visualization
 
+### Robotology Codebase Components
 
-### Human Dynamics Estimation
+The following are the main components that are required to run the code base for the paper.
 
-The main code related to the estimation of payload and articular stress are implemented as a part of [Human Dynamics Estimation](https://github.com/robotology/human-dynamics-estimation) project in the branch [feature/SOT-Berdy-HDE](https://github.com/robotology/human-dynamics-estimation/tree/feature/SOT-Berdy-HDE).
+- [YARP](https://github.com/robotology/yarp) - Robotics Middleware
+- iDynTree - Branch: [feature/stack-of-tasks-berdy](https://github.com/ami-iit/idyntree-hde-fork/tree/feature/stack-of-tasks-berdy) - Library for whole-body human dynamics estimator
+- [Human Dynamics Estimation](https://github.com/robotology/human-dynamics-estimation) project in the branch [feature/SOT-Berdy-HDE](https://github.com/robotology/human-dynamics-estimation/tree/feature/SOT-Berdy-HDE)
 
-Follow the installation instructions from the [master branch](https://github.com/robotology/human-dynamics-estimation#how-to-install) and to run the payload estimation and articular stress estimation, please refer to [How to run Dynamics Estimation](https://github.com/robotology/human-dynamics-estimation/blob/master/doc/how-to-run-dynamics-estimation.md)
+#### Robotology Installation
+
+Installing the components of Robotology seperately can be tricky to handle to setup with the working versions of the code associated with the paper. [Robotology-superbuild](https://github.com/robotology/robotology-superbuild) offers a convenient way to setup the required infrastructure. Please follow the instructions below to setup robotology components.
+
+```
+git clone https://github.com/dic-iit/tirupachuri-2021-access-estimation_payload_stresses
+export AEPS_ROOT=`pwd`/tirupachuri-2021-access-estimation_payload_stresses
+git clone https://github.com/robotology/robotology-superbuild
+cd robotology-superbuild
+git checkout -b v2021.08
+cmake -DROBOTOLOGY_PROJECT_TAGS:STRING=Custom -DROBOTOLOGY_ENABLE_HUMAN_DYNAMICS=True -DROBOTOLOGY_PROJECT_TAGS_CUSTOM_FILE=${AEPS_ROOT}/aeps.yaml ..
+```
 
 ### Dataset
 
