@@ -30,7 +30,7 @@ The following are the main components that are required to run the code base for
 
 #### Robotology Installation
 
-Installing the components of Robotology of the code associated with the paper seperately can be tricky. [Robotology-superbuild](https://github.com/robotology/robotology-superbuild) offers a convenient way to setup the required infrastructure, using [project tags](https://github.com/robotology/robotology-superbuild/blob/master/doc/change-project-tags.md). The required version of the code are updated in [aeps.yaml](./aeps.yaml). Please follow the instructions below to setup robotology components.
+Installing the components of Robotology of the code associated with the paper seperately can be tricky. [Robotology-superbuild](https://github.com/robotology/robotology-superbuild) offers a convenient way to setup the required infrastructure, using [robotology project tags](https://github.com/robotology/robotology-superbuild/blob/master/doc/change-project-tags.md). The required version of the code are updated in [aeps.yaml](./aeps.yaml). Please follow the instructions below to setup robotology components.
 
 ```
 git clone https://github.com/dic-iit/tirupachuri-2021-access-estimation_payload_stresses
@@ -40,6 +40,8 @@ cd robotology-superbuild
 git checkout -b v2021.08
 cmake -DROBOTOLOGY_PROJECT_TAGS:STRING=Custom -DROBOTOLOGY_ENABLE_HUMAN_DYNAMICS=True -DROBOTOLOGY_PROJECT_TAGS_CUSTOM_FILE=${AEPS_ROOT}/aeps.yaml ..
 ```
+
+⚠️ Do not build `robotology-superbuild` without the `ROBOTOLOGY_PROJECT_TAGS_CUSTOM_FILE` option pointed to [aeps.yaml](./aeps.yaml) file. Check the description at the end of [robotology project tags](https://github.com/robotology/robotology-superbuild/blob/master/doc/change-project-tags.md) for further information.
 
 ### Dataset
 
