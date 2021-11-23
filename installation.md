@@ -9,6 +9,10 @@ https://user-images.githubusercontent.com/6505998/134699009-4887d23b-070b-4ba5-a
 
 </p>
 
+### System
+
+⚠️ The code has been tested on Ubuntu 18.04.6 LTS (Bionic Beaver)
+
 ### Dependencies
 
 Please follow the installation instructions for each of the dependencies.
@@ -26,7 +30,7 @@ The following are the main components that are required to run the code base for
 
 #### Robotology Installation
 
-Installing the components of Robotology seperately can be tricky to handle to setup with the working versions of the code associated with the paper. [Robotology-superbuild](https://github.com/robotology/robotology-superbuild) offers a convenient way to setup the required infrastructure. Please follow the instructions below to setup robotology components.
+Installing the components of Robotology of the code associated with the paper seperately can be tricky. [Robotology-superbuild](https://github.com/robotology/robotology-superbuild) offers a convenient way to setup the required infrastructure, using [project tags](https://github.com/robotology/robotology-superbuild/blob/master/doc/change-project-tags.md). The required version of the code are updated in [aeps.yaml](./aeps.yaml). Please follow the instructions below to setup robotology components.
 
 ```
 git clone https://github.com/dic-iit/tirupachuri-2021-access-estimation_payload_stresses
