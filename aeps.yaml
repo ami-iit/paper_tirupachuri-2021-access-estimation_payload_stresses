@@ -73,7 +73,7 @@ repositories:
     version: v1.1.2
   iDynTree:
     type: git
-    url: https://github.com/ami-iit/idyntree-hde-fork/tree/feature/stack-of-tasks-berdy
+    url: https://github.com/ami-iit/idyntree-hde-fork.git
     version: 6fec756ec9dca59b1ef266bd807d2be3759d7d3c
   BlockFactory:
     type: git
