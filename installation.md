@@ -64,3 +64,9 @@ Please use the configuration file [Human_AMTI](https://github.com/robotology/hum
 ```
 yarprobotinterface --config Human_AMTI.xml
 ```
+
+## Usage
+
+Now, if you want to use the installed code, take a look at the [Usage](./usage.md) document.
+
+
