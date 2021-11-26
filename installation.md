@@ -37,8 +37,10 @@ git clone https://github.com/dic-iit/tirupachuri-2021-access-estimation_payload_
 export AEPS_ROOT=`pwd`/tirupachuri-2021-access-estimation_payload_stresses
 git clone https://github.com/robotology/robotology-superbuild
 cd robotology-superbuild
-git checkout -b v2021.08
+git checkout v2021.08
+mkdir build && cd build
 cmake -DROBOTOLOGY_PROJECT_TAGS:STRING=Custom -DROBOTOLOGY_ENABLE_HUMAN_DYNAMICS=True -DROBOTOLOGY_PROJECT_TAGS_CUSTOM_FILE=${AEPS_ROOT}/aeps.yaml ..
+make
 ```
 
 ⚠️ Do not build `robotology-superbuild` without the `ROBOTOLOGY_PROJECT_TAGS_CUSTOM_FILE` option pointed to [aeps.yaml](./aeps.yaml) file. Check the description at the end of [robotology project tags](https://github.com/robotology/robotology-superbuild/blob/master/doc/change-project-tags.md) for further information.
