@@ -39,9 +39,9 @@ yarpserver --ros --write
   
 7. Play the dataset by pressing :arrow_forward: on yarpdataplayer
 
-8. Remove the wrench offset through `/HumanDynamicsEstimation/rpc:i` rpc port
+8. Remove the wrench offset through `/HumanDynamicsEstimator/rpc:i` rpc port
 ```bash
-yarp rpc /HumanDynamicsEstimation/rpc:i
+yarp rpc /HumanDynamicsEstimator/rpc:i
 removeWrenchOffset
 ```
 
