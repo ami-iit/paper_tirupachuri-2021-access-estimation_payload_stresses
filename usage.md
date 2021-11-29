@@ -21,23 +21,24 @@ yarpserver --ros --write
     yarpdataplayer --withExtraTimeCol 2 
     ```
   c.  File->"Open Directory" -> open the directory extracted from the [dataset zip file](./Dataset)
+  
+   
+4. Goto options and select `loop` option, and play the dataset by pressing :arrow_forward: on yarpdataplayer. This runs the dataset in a loop.
 
-4. Launch the Human Dynamics Estimation:
+5. Launch the Human Dynamics Estimation:
   ```bash
   yarprobotinterface --config Human_AMTI.xml
   ```
   
-5. Run the state publisher:
+6. Run the state publisher:
   ```bash
   yarprobotstatepublisher --period 0.0001 --name-prefix Human --tf-prefix /Human/ --model humanSubject02_66dof.urdf --reduced-model true --base-frame Pelvis --jointstates-topic "/Human/joint_states"
   ```
   
-6. Launch RVIZ with the HDE configuration:
+7. Launch RVIZ with the HDE configuration:
   ```bash
   roslaunch HDERviz HDERviz.launch
   ```
-  
-7. Play the dataset by pressing :arrow_forward: on yarpdataplayer
 
 8. Remove the wrench offset through `/HumanDynamicsEstimator/rpc:i` rpc port
 ```bash
@@ -46,5 +47,5 @@ removeWrenchOffset
 ```
 
 ⚠️ The offset removals is to be done at the **start** of the dataset, where the human subject is in neutral npose without any load in the hand. The offset removal process removes the wrench that corresponds to the difference between the mass of the actual subject and the mass of the
-subject in the model. The offset removal process results in zeroing the estimated object mass.
+subject in the model. The offset removal process results in zeroing the estimated object mass. Furthermore, if you do not see the arrow at the hand, click on the `RightHand_EstimatedExtWrenches` and increase the `Force Arrow Scale value`.
 
