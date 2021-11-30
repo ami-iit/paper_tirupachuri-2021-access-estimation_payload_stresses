@@ -9,7 +9,7 @@ repositories:
     version: f9fc23d3436e4b17dd2cb95f70cfa1f37d122c24
   manif:
     type: git
-    url: https://github.com/robotology-dependencies/manif.git
+    url: https://github.com/artivis/manif.git
     version: 496717aa792c1ff4b99049034e53f9fa0ac676a3
   qhull:
     type: git
@@ -26,35 +26,35 @@ repositories:
   YCM:
     type: git
     url: https://github.com/robotology/ycm.git
-    version: v0.13.0
+    version: v0.12.2
   YARP:
     type: git
     url: https://github.com/robotology/yarp.git
-    version: v3.4.6
+    version: v3.4.5
   ICUB:
     type: git
     url: https://github.com/robotology/icub-main.git
-    version: 52a51449d9e10cb6c05987455b1d3edac5825eaa
+    version: v1.20.0
   ICUBcontrib:
     type: git
     url: https://github.com/robotology/icub-contrib-common.git
-    version: cd6352688c64aadc0a044925532d08fbcb688886
+    version: v1.19.0
   robots-configuration:
     type: git
     url: https://github.com/robotology/robots-configuration.git
-    version: 51d79c07744e166a0afc49ac9edfaabd9538d54c
+    version: v1.20.0
   GazeboYARPPlugins:
     type: git
     url: https://github.com/robotology/gazebo-yarp-plugins.git
-    version: 90df1566fc05e5830252bbfc1d34df4b7a4ca976
+    version: v3.6.1
   icub-models:
     type: git
     url: https://github.com/robotology/icub-models.git
-    version: 955de8fdfebb7ab1f60d8fd1dcadfe05bc587222
+    version: v1.20.0
   yarp-matlab-bindings:
     type: git
     url: https://github.com/robotology/yarp-matlab-bindings.git
-    version: 30ab77bed50887a5fc7f1873ae5ee9f488eb6b3b
+    version: v3.4.4
   RobotTestingFramework:
     type: git
     url: https://github.com/robotology/robot-testing-framework.git
@@ -62,15 +62,15 @@ repositories:
   icub-tests:
     type: git
     url: https://github.com/robotology/icub-tests.git
-    version: v1.20.1
+    version: v1.20.0
   blocktestcore:
     type: git
     url: https://github.com/robotology/blocktest.git
-    version: v2.3.3
+    version: v2.3.2
   blocktest-yarp-plugins:
     type: git
     url: https://github.com/robotology/blocktest-yarp-plugins.git
-    version: v1.1.2
+    version: v1.1.1
   iDynTree:
     type: git
     url: https://github.com/ami-iit/idyntree-hde-fork.git
@@ -102,11 +102,11 @@ repositories:
   whole-body-controllers:
     type: git
     url: https://github.com/robotology/whole-body-controllers.git
-    version: v2.5.3
+    version: v2.5.2
   whole-body-estimators:
     type: git
     url: https://github.com/robotology/whole-body-estimators.git
-    version: v0.5.1
+    version: v0.5.0
   walking-teleoperation:
     type: git
     url: https://github.com/robotology/walking-teleoperation.git
@@ -119,26 +119,26 @@ repositories:
     type: git
     url: https://github.com/robotology/wearables.git
     version: ff6bd84a98f3fc01dc44e09af24475c2c72ce1ae
-  HumanDynamicsEstimation:
+  human-dynamics-estimation:
     type: git
     url: https://github.com/robotology/human-dynamics-estimation.git
-    version: caeeabcdbe7724d6f98b6cc37eb7b0171ed82d33
+    version: 642d0ec5035c6585bf4cddf80361e04748b088dd
   human-gazebo:
     type: git
     url: https://github.com/robotology/human-gazebo.git
-    version: v1.0
+    version: 455f212fc507135ba4f393c28364588140470498
   icub_firmware_shared:
     type: git
     url: https://github.com/robotology/icub-firmware-shared.git
-    version: v1.21.0
+    version: v1.20.0
   icub-firmware:
     type: git
     url: https://github.com/robotology/icub-firmware.git
-    version: v1.21.0
+    version: v1.20.0
   icub-firmware-build:
     type: git
     url: https://github.com/robotology/icub-firmware-build.git
-    version: v1.21.0
+    version: v1.20.0
   icub-firmware-models:
     type: git
     url: https://github.com/robotology/icub-firmware-models.git
@@ -158,7 +158,7 @@ repositories:
   icub-basic-demos:
     type: git
     url: https://github.com/robotology/icub-basic-demos.git
-    version: v1.20.1
+    version: v1.20.0
   funny-things:
     type: git
     url: https://github.com/robotology/funny-things.git
@@ -166,11 +166,11 @@ repositories:
   bipedal-locomotion-framework:
     type: git
     url: https://github.com/dic-iit/bipedal-locomotion-framework.git
-    version: v0.3.0
+    version: v0.1.0
   LieGroupControllers:
     type: git
     url: https://github.com/dic-iit/lie-group-controllers.git
-    version: v0.1.1
+    version: v0.0.1
   event-driven:
     type: git
     url: https://github.com/robotology/event-driven.git
@@ -203,7 +203,3 @@ repositories:
     type: git
     url: https://github.com/dic-iit/casadi-matlab-bindings.git
     version: v3.5.5.1
-  idyntree-yarp-tools:
-    type: git
-    url: https://github.com/robotology/idyntree-yarp-tools.git
-    version: v0.0.2
