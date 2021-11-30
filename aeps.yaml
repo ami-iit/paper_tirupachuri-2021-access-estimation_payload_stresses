@@ -122,7 +122,7 @@ repositories:
   human-dynamics-estimation:
     type: git
     url: https://github.com/robotology/human-dynamics-estimation.git
-    version: 791c5cf3050d7ab795f274671f6283782cee545f
+    version: 642d0ec5035c6585bf4cddf80361e04748b088dd
   human-gazebo:
     type: git
     url: https://github.com/robotology/human-gazebo.git
