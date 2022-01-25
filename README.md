@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/6505998/134696331-6335943b-cd03-41fc-8
 <div align="center">
   <a href="#installation"><b>Installation</b></a> |
   <a href="https://ieeexplore.ieee.org/abstract/document/9526592"><b>Paper</b></a> |
-  <a href="https://www.youtube.com/watch?v=6b03DNpNXAk"><b>Video</b></a>
+  <a href="https://youtu.be/oPTiWrlKRJ0"><b>Video</b></a>
 </div>
 
 ### Installation & Usage
