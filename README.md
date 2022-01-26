@@ -53,4 +53,4 @@ This repository is maintained by:
 
 | | |
 |:---:|:---:|
-| [<img src="https://github.com/yeshasvitvs.png" width="40">](https://github.com/yeshasvitvs) | [Yeshasvi Tirupachuri](https://github.com/yeshasvitvs) |
+| [<img src="https://github.com/yeshasvitirupachuri.png" width="40">](https://github.com/yeshasvitirupachuri) | [Yeshasvi Tirupachuri](https://github.com/yeshasvitirupachuri) |
